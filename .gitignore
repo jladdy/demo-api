@@ -1,2 +1,6 @@
 # Node Dependencies
 node_modules/
+
+# Environment Variables allowing examples
+.env
+!.env.example
