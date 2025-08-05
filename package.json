@@ -6,6 +6,13 @@
   "license": "GNU AGPLv3",
   "main": "index.js",
   "scripts": {
+    "dev": "npx nodemon src/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
   }
 }
